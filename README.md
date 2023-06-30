@@ -5,7 +5,7 @@ The PDF containing the assignment, along with detailed result explanations, will
 This repository contains the code and models for the "Deep Reinforcement Learning Assignment" by my professor, Giacomo Spigler. The assignment explores deep reinforcement learning (DRL) techniques in sim2sim and imitation learning.
 
 ### Simulation of the Ant-v4 model, that was trained using PPO with the following hyperparameters: batch size of 256, gamma value of 0.99, and 900,000 timesteps.
-![Simulation of the Ant-v4 model, that was trained using PPO with the following hyperparameters: batch size of 256, gamma value of 0.99, and 900,000 timesteps.](video.mp4)
+[![Simulation of the Ant-v4 model, that was trained using PPO with the following hyperparameters: batch size of 256, gamma value of 0.99, and 900,000 timesteps.](http://img.youtube.com/vi/aLZdnPR4RDw/0.jpg)](http://www.youtube.com/watch?v=aLZdnPR4RDw "Ant-v4 Gymnasium PPO #AI #simulation")
 
 ### Part 1 - SIM2SIM - GENERALIZATION OF TRAINED POLICIES TO DIFFERENT ENVIRONMENT DYNAMICS
 Part 1 focuses on generalizing trained policies to different environment dynamics, in this case: torso mass, using the Proximal Policy Optimization (PPO) algorithm. Hyperparameter tuning with Optuna is used for effective exploration. And HuggingFace (2023) state-of-the-art baseline hyperparameters are tested.
