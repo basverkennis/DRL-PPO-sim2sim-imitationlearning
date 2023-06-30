@@ -1,0 +1,65 @@
+# System:
+Macbook Pro 2021 - M1 Max chip (MacOS: 13.1 (22C65))
+Visual Studio Code 1.79.2 (Universal)
+Anaconda 2.4.0
+
+# Part 1 & 2 anaconda enviroment
+
+Python 3.8.16
+
+--> upload folder imitaton_v0.3.zip in current directory where you're code for the assignment is too
+Name: imitation
+Version: 0.3.2.dev28328811+d20230621
+--> then run 'pip install -e .' from the directory where setup.py file is located
+
+Name: Shimmy
+Version: 1.1.0
+
+Name: imageio
+Version: 2.31.1
+
+Name: mujoco
+Version: 2.3.3
+
+Name: stable-baselines3
+Version: 2.0.0a13
+
+Name: gym
+Version: 0.26.2
+
+pip install huggingface-sb3>=2.2.1
+pip install pyglet==1.5.27
+pip install sacred>=0.8.4
+pip install scikit-learn>=0.21.2
+pip install seals>=0.1.5
+pip install tensorboard>=1.14
+pip install gym[classic_control]==0.21.0
+--> but I installed gym[classic_control], so gave me the newest version, which gave me this output:
+Requirement already satisfied: zipp>=0.5 in ./anaconda3/envs/DRL1/lib/python3.8/site-packages (from importlib-metadata>=4.8.0->gym[classic_control]) (3.15.0)
+Installing collected packages: pygame
+Successfully installed pygame-2.1.0
+
+# (REDUNDANT) Part 1 anaconda enviroment
+# started of with a separate Anaconda environment for each part of assignment, but later on was redundant, because the other one worked for both parts of the assignment
+
+Python 3.8.16
+
+Name: stable-baselines3
+Version: 2.0.0a13 == using
+Version: 1.8.0 == newest
+
+Name: gymnasium
+Version: 0.28.1 == newests & using
+
+Name: mujoco
+Version: 2.3.3 == using
+Version: 2.3.5 == newest
+
+Name: imageio
+Version: 2.31.1
+
+--> I don't know if these things are necessary but I still did it:
+git clone https://github.com/deepmind/mujoco in DRL directory where I have the code that I am working on
+downloaded Mujoco engine dmg file release 2.3.3 and moved Mujoco.app to applications folder
+
+
