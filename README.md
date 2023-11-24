@@ -2,7 +2,7 @@
 
 The PDF containing the assignment, along with detailed result explanations, will be published soon.
 
-This repository contains the code and models for the "Deep Reinforcement Learning Assignment" by Tilburg University - Cognitive Science & Artificial Intelligence. The assignment explores deep reinforcement learning (DRL) techniques in sim2sim and imitation learning.
+This repository contains the code and models for a "Deep Reinforcement Learning Assignment (University MSc)". The assignment explores deep reinforcement learning (DRL) techniques in sim2sim and imitation learning.
 
 ### Simulation of the Ant-v4 model, that was trained using PPO with the following hyperparameters: batch size of 256, gamma value of 0.99, and 900,000 timesteps.
 [![Simulation of the Ant-v4 model, that was trained using PPO with the following hyperparameters: batch size of 256, gamma value of 0.99, and 900,000 timesteps.](http://img.youtube.com/vi/aLZdnPR4RDw/0.jpg)](http://www.youtube.com/watch?v=aLZdnPR4RDw "Ant-v4 Gymnasium PPO #AI #simulation")
